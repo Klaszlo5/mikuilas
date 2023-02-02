@@ -1,0 +1,80 @@
+body{
+    background-image: url(kep/hatter.jpg);
+}
+main{
+    box-sizing: border-box;
+    width: 80%;
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(255,255,230);
+}
+header{
+    opacity: 0.8;
+    background-image: url(kep/fejlec.jpg);
+    height: 550px;
+    color: red;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 60px;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+}
+nav{
+    background-color: red;
+    height: 50px;
+}
+nav ul{
+
+    margin: 10px;
+}
+nav li{
+    padding: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 110px;
+}
+nav li::after{
+    background-color: greenyellow;
+}
+aside{
+    width: 100%;
+    float: left;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+aside img{
+    width: 100%;
+    height: 50%;
+}
+article h1{
+    font-size: 15px;
+    color: #ff1a1a;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+}
+article p{
+    font-size: 10px;
+}
+article img{
+    float: right;
+    border-radius: 1px;
+    border-color: black;
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+article{
+    display : inline-block;
+    text-align: justify;
+}
+footer{
+    background-color: red;
+    text-align: center;
+}
