@@ -78,3 +78,7 @@ footer{
     background-color: red;
     text-align: center;
 }
+@media only screen and (min-width: 600px) {
+    main {width: 40.33%;}
+    body {width: 30.66%;}
+}
